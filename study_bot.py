@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Study Buddy Chatbot - A simple Telegram bot to help students with study techniques
 and time management using spaCy NLP.
