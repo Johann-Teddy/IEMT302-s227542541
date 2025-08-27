@@ -1,53 +1,65 @@
 # IEMT302-s227542541
 Problem Statement=
-Many people want to cook but lack inspiration or basic cooking knowledge. This chatbot provides:
-1. Quick recipe ideas for simple meals
-2. Basic cooking guidance for beginners
-3. Instant inspiration when you don't know what to cook
-4. Simple cooking tips to improve skills
+Students often struggle with effective study techniques, time management, and maintaining motivation. This chatbot provides:
+1. Quick access to study techniques like Pomodoro method
+2. Time management strategies for better productivity
+3. Memorization tips for improved learning
+4. Motivational advice to maintain focus
+5. 24/7 availability for study support
 
 How to Verify It Works=
-1. Create and activate virtual environment:
-2. Install dependencies:
-3. Set up your Telegram Bot:
-4. Run the bot
+1. Create Virtual Environment
+2. Install Dependencies
+3. Set Up Telegram Bot
+4. Run the Bot
 
 Testing the Bot
-1. Start the bot with /start command
-2. Test menu options by clicking buttons or typing:
-  •	"pasta" or "I want to make pasta"
-  •	"salad" or "how to make salad"
-  •	"eggs" or "egg recipe"
-  •	"tip" or "cooking advice"
-3. Test unexpected inputs:
-  •	"What's the weather?"
-  •	"Tell me a joke"
-  •	"How are you?"
+1. Basic Functionality Test
+  •	Send /start → Should show welcome message with menu
+  •	Click menu buttons → Should return appropriate study tips
+  •	Type "pomodoro" → Should explain Pomodoro technique
+  •	Type "time management" → Should give time management advice
+
+2. NLP Testing
+Test these phrases (spaCy should understand the similarity):
+  •	"How to focus better?" → Focus tips
+  •	"I need help memorizing" → Memorization tips
+  •	"Study timing method" → Pomodoro technique
+  •	"Getting motivated" → Motivation advice
+
+3. Unexpected Input Testing
+  •	"What's the weather?" → Fallback response
+  •	"Tell me a joke" → Fallback response
+  •	"Hello" → Fallback response
+  •	Random words → Fallback response
+
+4. Restart Functionality
+  •	Type "start over" or "menu" → Should restart conversation
 
 Limitations=
-1. Basic Recipes Only
-  •	Very simple recipe database
-  •	No measurements or precise cooking times
-  •	Limited to 5 basic dishes
-
-2. No Advanced Features
-  •	Cannot scale recipes for different servings
-  •	No dietary restriction accommodations
-  •	No cooking timer or step-by-step guidance
-
-3. Simple Keyword Matching
-  •	Uses basic word matching, not NLP
-  •	May misunderstand complex questions
+1. Basic NLP Understanding
+  •	Uses simple semantic similarity matching
   •	Limited context awareness
+  •	May misunderstand complex or ambiguous questions
+
+2. Fixed Knowledge Base
+  •	Only contains pre-programmed study techniques
+  •	Cannot learn new information or adapt to individual needs
+  •	No personalized advice based on user history
+
+3. No Session Memory
+  •	Doesn't remember previous conversations
+  •	Each message is processed independently
+  •	No continuity in multi-step queries
 
 4. Unexpected Input Handling
-  •	When the bot doesn't understand:
-  •	Provides friendly fallback responses
-  •	Suggests topics it can help with
-  •	Never pretends to know something it doesn't
-  •	Always redirects to cooking topics
+When the bot encounters something unexpected:
+  •	Provides friendly fallback responses redirecting to study topics
+  •	Uses a list of pre-defined generic responses
+  •	Never pretends to understand something it doesn't
+  •	Always maintains focus on study-related assistance
 
-5. No Personalization
-  •	Doesn't remember user preferences
-  •	Cannot learn from previous interactions
-  •	Same responses for all users
+5. Limited Depth
+  •	Provides overviews, not detailed guides
+  •	No step-by-step instructions or follow-up questions
+  •	Basic explanations only
