@@ -69,7 +69,6 @@ When the bot encounters something unexpected:
 # Second Repo Experiment
 
 # Machine Learning (Machine_learning.py)
-Simple Linear Regression
 This repository demonstrates the most basic form of machine learning: linear regression. It uses Python and scikit-learn to learn a relationship between input and output data.
 
 What Is Linear Regression?
