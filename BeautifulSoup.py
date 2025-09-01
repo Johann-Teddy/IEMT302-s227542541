@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
+
 import requests
+
 from bs4 import BeautifulSoup
 
 # Target URL
@@ -14,3 +17,6 @@ soup = BeautifulSoup(response.text, 'lxml')
 # Extract and print all visible text
 print("Text from the Amazing Africa:")
 print(soup.get_text(separator='\n', strip=True))
+
+if __name__ == "__main__":
+    main()
