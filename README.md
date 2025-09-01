@@ -67,6 +67,36 @@ When the bot encounters something unexpected:
   •	Basic explanations only
 
 # Second Repo Experiment (BeautifulSoup.py)
+Objective=
+This exercise demonstrates how to use Python's Beautiful Soup library to extract visible text content from a live webpage. The target site was [Amazing Africa](https://www.amazing-africa.co.za/3-facts-about-port-elizabeth/), and the goal was to retrieve all readable text in a clean, structured format.
+
+Tools Used=
+- `requests`: For sending HTTP GET requests to the webpage.
+- `BeautifulSoup` (from `bs4`): For parsing and navigating the HTML content.
+
+Key Steps=
+1. **HTTP Request**  
+   A GET request was sent to the target URL using `requests.get()`, with a custom `User-Agent` header to simulate a browser and avoid potential blocks.
+
+2. **HTML Parsing**  
+   The response content was parsed using `BeautifulSoup(response.text, 'lxml')` to create a navigable HTML tree.
+
+3. **Text Extraction**  
+   All visible text was extracted using `soup.get_text(separator='\n', strip=True)`, which returns a clean string with line breaks between elements and removes excess whitespace.
+
+4. **Output**  
+   The extracted text was printed to the console, providing a readable snapshot of the page's content.
+
+What I Learned=
+- How to structure a basic web scraping script using Beautiful Soup.
+- The importance of using headers to mimic browser behavior.
+- How to cleanly extract and format visible text from HTML.
+- How to write reproducible, well-documented code with a clear entry point (`if __name__ == "__main__"`).
+
+Next Steps=
+- Extend the script to extract specific elements (e.g. headings, paragraphs, metadata).
+- Add error handling for failed requests or unexpected HTML structures.
+- Save output to a file for further analysis or archiving.
 
 # Machine Learning (Machine_learning.py)
 This repository demonstrates the most basic form of machine learning: linear regression. It uses Python and scikit-learn to learn a relationship between input and output data.
