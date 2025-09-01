@@ -94,6 +94,7 @@ What the Code Does=
 
 How to Run It=
   • Step 1: Clone the repo
+  
   • Step 2: Set up a virtual environment
   • Step 3: Install dependencies
   • Step 4: Run the script
