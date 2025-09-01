@@ -1,4 +1,4 @@
-# IEMT302-s227542541
+# IEMT302-s227542541 (I have combined the requirements and .gitignore of different tasks)
 
 # Telegram Chatbot
 Problem Statement=
