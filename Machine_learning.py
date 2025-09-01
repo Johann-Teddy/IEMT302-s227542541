@@ -26,3 +26,6 @@ plt.title('Simple Linear Regression')
 plt.legend()
 plt.grid(True)
 plt.show()
+
+if __name__ == '__main__':
+    main()
