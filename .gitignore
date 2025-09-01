@@ -1,5 +1,11 @@
+Telegram Chatbot-->
 venv/
 .env
 *.pyc
 __pycache__/
 .DS_Store
+
+Machine Learning-->
+__pycache__/
+*.pyc
+.env
