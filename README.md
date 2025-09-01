@@ -1,6 +1,6 @@
 # IEMT302-s227542541 (I have combined the requirements.txt, .gitignore and README.md of different tasks)
 
-# Telegram Chatbot
+# Telegram Chatbot (study_bot.py)
 Problem Statement=
 Students often struggle with effective study techniques, time management, and maintaining motivation. This chatbot provides:
 1. Quick access to study techniques like Pomodoro method
