@@ -93,9 +93,9 @@ What the Code Does=
    - Plots training data, model predictions, and test predictions using matplotlib.
 
 How to Run It=
-  Step 1: Clone the repo
-  Step 2: Set up a virtual enviroment
-  Step 3: Install dependencies
-  Step 4: Run the script
+1. Clone the repo
+2. Set up a virtual enviroment
+3. Install dependencies
+4. Run the script
 
 You'll see a plot showing the training data, the regression line and predictions for new inputs.
