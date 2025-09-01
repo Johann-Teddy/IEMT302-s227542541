@@ -65,3 +65,37 @@ When the bot encounters something unexpected:
   •	Provides overviews, not detailed guides
   •	No step-by-step instructions or follow-up questions
   •	Basic explanations only
+
+#Second Repo Experiment
+
+#Machine Learning (Machine_learning.py)
+Simple Linear Regression
+This repository demonstrates the most basic form of machine learning: linear regression. It uses Python and scikit-learn to learn a relationship between input and output data.
+
+What Is Linear Regression?
+Linear regression is a supervised learning algorithm that models the relationship between a dependent variable (y) and one or more independent variables (X) using a straight line.
+
+In this example, we use a perfect linear relationship:  
+**y = 2x**
+
+What the Code Does=
+
+1. **Creates training data**:  
+   - Inputs: `X = [[1], [2], [3], [4], [5]]`  
+   - Targets: `y = [2, 4, 6, 8, 10]`
+
+2. **Trains a model**:  
+   - We use `LinearRegression()` from scikit-learn to learn the mapping from X to y.
+
+3. **Makes predictions**:  
+   - Predicts the output for new inputs: `X_test = [[6], [7]]`
+
+4. **Visualizes the result**:  
+   - Plots training data, model predictions, and test predictions using matplotlib.
+
+How to Run It=
+Step 1: Clone the repo
+Step 2: Set up a virtual environment
+Step 3: Install dependencies
+Step 4: Run the script
+You’ll see a plot showing the training data, the regression line, and predictions for new inputs.
